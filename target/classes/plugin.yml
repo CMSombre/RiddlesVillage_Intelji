@@ -1,0 +1,15 @@
+name: RiddlesVillage
+version: '1.0-SNAPSHOT'
+main: me.cmriddles.riddlesvillage.RiddlesVillage
+api-version: '1.19'
+author: CMRiddles
+depends:
+  - WorldGuard
+  - WorldEdit
+commands:
+  village:
+    description: Your command description here
+    usage: /village <subcommand> <size>
+    aliases: [v]
+    permission: riddlesvillage.command.village
+    default: op
